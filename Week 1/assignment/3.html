@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        label{
+            display: inline-block;
+            width:150px;
+            margin: right 0;
+            text-align:left;
+        }
+        input[type="text"]{
+            display: inline-block;
+            text-align: left;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+            margin-bottom: 5px; /* Add right margin between radio buttons */
+            vertical-align: text-bottom; /* Align radio buttons vertically */
+        }
+        
+    </style>
+    
+</head>
+<body> <center>
+    <div>
+        <h1>VACATION PLANNING</h1>
+        <p>Welcome to our site. Hope ur looking for the best places to spend your vacation.For Prebooking or planning ur Vaccation kindly Fill out the registration form to know more details about the vacation planning spots ,packages and more...  </p>
+    </div>
+    <form >
+        <H2>REGISTRATION FORM</H2>
+        <label class="space" > Name :   </label>
+        <input type="name"><br><br>
+        <label class="space">Phone Number :</label>        
+        <input type="number"><br><br>
+        <label class="space">Vaccation Places:</label>
+        <input list="flick">
+         <datalist id="flick">
+            <option>Maldives</option>
+            <option >Paris</option>
+            <option >Australia</option>
+            <option >switzerland</option>
+        </datalist><br><br>
+        <label class="space" > Days :</label>
+        <input type="number"><br><br>
+        <label class="space" id="Gender">Gender :</label>
+        <input type="radio" id="Gender" name="gender" value="Male">
+        <label for="Gender">Male</label>
+        <input type="radio" id="Gender" name="gender" value="Female">
+        <label for="Gender">Female</label>
+        <input type="radio" id="Gender" name="gender" value="Others">
+        <label for="Gender">Others</label>
+        
+
+    </form>
+    </center>
+    
+    
+    
+</body>
+</html>

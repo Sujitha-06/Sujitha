@@ -1,0 +1,38 @@
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px; 
+    margin-left: 50px;
+}
+.head{
+    padding: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+    background-color:lightseagreen;
+}
+.body{
+    padding: 25px;
+    background-image: url(img/flat-background-world-tourism-day-celebration_23-2150677247.avif);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+}
+img {
+    border: 5px solid #234676;
+    border-radius: 25px;
+}
+.footer{
+    padding: 60px;
+    text-align: center;
+    color: black;
+    background-color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: oblique;
+    display: block
+}

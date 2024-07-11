@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM</title>
+    <link rel="icon" href="img/download.jpg">
+    <style>
+         .form{
+            padding: 60px;
+            text-align: justify;
+            background-color: cornsilk;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+            font-size: large;
+            background-image: url(img/1573730079_cover.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            position: relative;
+    
+        }
+        .text{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form >
+            <h3> REGISTRATION:</h3>
+            <label for="name">NAME:</label><br>
+            <input  class= " text" type="text" pattern="[a-zA-z]+" required placeholder="Sujitha"><br><br>
+            <label for="age">AGE:</label><br>
+            <input class="text" type="number" pattern="[0-9]{2}" required placeholder="18"><br><br>
+            <label for="destination">DESTINATION:</label><br>
+            <input class="text" list="location" placeholder="Choose one" >
+            <datalist id="location">
+                <option >INDIA</option>
+                <option >FOREIGN</option>
+            </datalist><br><br>
+            <label for="mail">EMAIL:</label><br>
+            <input class="text" type="email" name="mail" id="mail" required placeholder="sujithastalinraja06@gmail.com"><br><br>
+            <label for="password">PASSWORD:</label><br>
+            <input class="text" type="password" name="password" id="password" pattern=".{8,}" title="8 or more characters" required placeholder="Sujitha@06"><br><br>
+            <label for="phone">PHONE NUMBER:</label><br>
+            <input class="text" type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="9976331989"><br><br>
+            <label for="gender">GENDER:</label><br><br>
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender">MALE</label><br>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">FEMALE</label><br>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">OTHERS</label><br><br>
+            <label for="food">FOOD:</label><br><br>
+            <input type="checkbox" name="food" id="food" >
+            <label for="food">Indian Cuisine</label><br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Mexican Cuisine</label><br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Spanish Cuisine</label><br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Japanese Cuisine </label><br><br>
+            <input class="text" type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

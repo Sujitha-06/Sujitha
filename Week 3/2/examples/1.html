@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="calculateShippingCost">OK</button>
+    <script>
+        function calculateShippingCost(weight,shippingMethod){
+            return shippingMethod == "Express" ? 10+(weight*0.2) : 5+(weight*.01);
+        }
+       var cost = 
+       calculateShippingCost(50,"Express");
+       console.log(cost)
+    </script>
+</body>
+</html>

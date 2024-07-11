@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>vacation</title>
+    <style>
+        body{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .header{
+            padding: 60px;
+            color:black;
+            background-color: burlywood;
+            background-image: url(img/best-places-to-visit-in-summer-maldives.jpg);
+            background-size: contain;
+            background-repeat: unset;
+        }
+        .main{
+            padding: 60px;
+            text-align: justify;
+            font-family: cursive;
+            background-color: burlywood;
+        }
+        .form{
+            padding: 60px;
+            text-align: justify;
+            background-color: cornsilk;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+            font-size: large;
+            background-image: url(img/1573730079_cover.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+    
+        }
+        .footer{
+            padding: 60px;
+            text-align: center;
+            color: black;
+            background-color: blanchedalmond;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            font-style: oblique;
+            display: block
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="header">
+        <h1> VACATION</h1>
+    </div>
+    <div class="main">
+        <h2>Plan a Better Trip with your Vacation Planner:</h2>
+        <p>Use the Trip Planner for your upcoming journey and personalize your activities, dates, and transportation according to your needs in any destination on your bucket list. The comprehensive itinerary planner allows you to add the activities that interest you most, whether its a thrilling snowmobile safari ride under the dancing Northern Lights in Norway a scenic Lake Como cruise in Italy, or making authentic Matryoshka dolls somewhere in Russia. You are also in control of your means of transportation between the cities on your itinerary and in the city itself - hop onboard a train from Zaragoza to Barcelona and marvel at the scenic Spanish scenery or enjoy a private transfer somewhere in France, it's all up to you.</p>
+        <h2>Best Tourist Places in the World for Your Travel Bucket List
+            Introduction:</h2>
+            <p>“The world is a book, and those who do not travel, read only a page”. These words quoted by Saint Augustine, a fourth-century philosopher, much reflect what travel is all about. Travel around the world to explore new places, know different cultures, traditions, people and cuisines, and enrich yourself with these precious experiences. Visit some of the best places in the world and create memories that you will cherish forever. Nature and human excellence have contributed together to create the  best places to visit in the world. Cities with marvellous architecture, places with reminisces of age-old history, destinations located in the lap of nature and towns with religious importance are counted as some of the famous places in the world. Take a look at some of the best places in the world and craft your travel bucket list.</p>
+    </div>
+    <div class="form">
+        <form >
+            <h3> REGISTRATION:</h3>
+            <label for="name">NAME:</label><br>
+            <input type="text"pattern="[a-zA-z]+" required><br><br>
+            <label for="age">AGE:</label><br>
+            <input type="number" pattern="[0-9]{2}" required><br><br>
+            <label for="destination">DESTINATION:</label><br>
+            <input list="location">
+            <datalist id="location">
+                <option >INDIA</option>
+                <option >FOREIGN</option>
+            </datalist><br><br>
+            <label for="mail">EMAIL:</label><br>
+            <input type="email" name="mail" id="mail" required><br><br>
+            <label for="password">PASSWORD:</label><br>
+            <input type="password" name="password" id="password" pattern=".{8,}" title="8 or more characters" required><br><br>
+            <label for="phone">PHONE NUMBER:</label><br>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{10}"><br><br>
+            <label for="gender">GENDER:</label><br><br>
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender">MALE</label><br>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">FEMALE</label><br>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">OTHERS</label><br><br>
+            <label for="food">FOOD:</label><br><br>
+            <input type="checkbox" name="food" id="food" >
+            <label for="food">Indian Cuisine</label><br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Mexican Cuisine</label><br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Spanish Cuisine</label><br>
+            <input type="checkbox" name="food" id="food">
+            <label for="food">Japanese Cuisine </label><br><br>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="footer">
+        <footer><strong>
+            &copy;&lt;&lt;VACATION PLANNER &gt;&gt;2024
+            <gt></gt>
+            <lt></lt></strong>
+        </footer>
+    </div>
+</center>    
+</body>
+</html>

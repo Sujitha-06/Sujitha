@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vaildation</title>
+    <link rel="icon" href="img/cars.png" type="icon">
+</head>
+<body>
+    <form action="3.html" target="_parent">
+        Enter Course Code:  <input type="text" pattern="[A-Z]{3}[0-9]{2}[A-Z]{3}[0-9]{3}" placeholder="coursecode"><br><br>
+        Enter Color Code:   <input type="text" pattern="#[0-9A-Fa-f]{6}" placeholder="color code"><br><br>
+        Phone number:       <input type="tel"  pattern="\([0-9]{3}\) [0-9]{3} - [0-9]{3}" placeholder="phone number"><br><br>
+        URL: <input type="url" placeholder="https://example.com" pattern="https://.*" size="30"><br><br>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
